@@ -31,6 +31,7 @@
     <div class="scroll">
       <a href="#header"
         ><img
+          id="up"
           class="arrow-bat hoveryellow"
           src="./assets/img/logos/logo_bat_flèche.png"
           alt="white bat up"
@@ -52,6 +53,7 @@
       />
       <a href="#contact-form"
         ><img
+          id="down"
           class="arrow-bat hoveryellow"
           src="./assets/img/logos/logo_bat_flèche_2.png"
           alt="white bat down"
@@ -73,7 +75,7 @@
         <i class="fas fa-regular fa-2x fa-bars menu-mobile"></i>
         <!-- Menu -->
         <ul>
-          <li><a href="index.html">HOME</a></li>
+          <li><a class="active" href="index.html">HOME</a></li>
           <li><a href="game.html">GAME</a></li>
         </ul>
       </nav>
@@ -207,6 +209,10 @@
           </div>
         </div>
       </section>
+
+      <div class="omg">
+        <img src="./assets/img/illustrations/Bathome12.png" alt="" />
+      </div>
 
       <!-- Allies Section -->
       <section id="allies">
@@ -394,7 +400,7 @@
               rows="1"
               placeholder="Laissez un commentaire pour la communauté"
             ></textarea>
-            <input class="btn-input" type="submit" value="CONFIRMER" />
+            <input class="btn btn-input" type="submit" value="CONFIRMER" />
           </form>
         </div>
       </section>
@@ -489,6 +495,7 @@
         </div>
       </div>
     </footer>
+
     <!-- JS -->
     <script src="./assets/js/app.js"></script>
   </body>

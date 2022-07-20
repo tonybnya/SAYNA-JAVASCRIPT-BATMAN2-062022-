@@ -12,11 +12,16 @@ nav {
       display: block;
       padding: 10px;
       text-decoration: none;
+      font-family: 'rajdhani';
       font-weight: 500;
       font-size: 25px;
       color: $color-white;
-      &:hover {
+      &:hover,
+      &:focus {
         color: $color-yellow;
+      }
+      &.active {
+        text-decoration: underline;
       }
     }
   }
