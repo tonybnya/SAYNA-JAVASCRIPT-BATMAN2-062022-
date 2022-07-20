@@ -2,9 +2,18 @@
 const log = arg => console.log(arg);
 
 // Target the two batman arrows on the side scroll buttons
-const links = document.querySelectorAll('.arrow-bat');
-// Add an event listener to each of the two
-links.forEach((element) => { 
+const arrows = document.querySelectorAll('.arrow-bat');
+// Target buttons on the hero section
+const btns.document.querySelectorAll('#scroll');
+
+// Add an event listener to each batman arrow
+arrows.forEach((element) => { 
+  // Call the defined smoothScroll function on each element
+  element.addEventListener('click', smoothScroll);
+});
+
+// Add an event listener to each button link
+btns.forEach((element) => { 
   // Call the defined smoothScroll function on each element
   element.addEventListener('click', smoothScroll);
 });
